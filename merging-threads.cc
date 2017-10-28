@@ -18,6 +18,10 @@ vector<int> firsthalf;
 vector<int> secondhalf;
 vector<int> sortedlist;
 
+void *Runner(void *param) {
+
+}
+
 int main (int argc, char *argv[]) {
   if (argc != 2) {
     cerr << "Usage of the program is: " << argv[0]
