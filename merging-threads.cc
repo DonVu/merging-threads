@@ -14,6 +14,9 @@ using namespace std;
 
 //  Global array threads access
 vector<int> initiallist;
+vector<int> firsthalf;
+vector<int> secondhalf;
+vector<int> sortedlist;
 
 int main (int argc, char *argv[]) {
   if (argc != 2) {
